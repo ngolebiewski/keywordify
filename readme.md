@@ -21,7 +21,8 @@ Learning Flask as I go. So here we go!
 ## Todo
 0. ~~Deploy to Render~~
 1. Add style
-2. View current keywords + option to add to list
-3. Be pseudo LLM-y and build new keywords off of the job descriptions that are uploaded
-4. Build login to save your resume (can Render do SQLite from just their web services plan?)
+2. Use Plotly etal to make a cooler visual for keyword analysis
+3. View current keywords + option to add to list
+4. Be pseudo LLM-y and build new keywords off of the job descriptions that are uploaded
+5. Build login to save your resume (can Render do SQLite from just their web services plan?)
 
