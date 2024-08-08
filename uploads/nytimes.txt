@@ -1,0 +1,211 @@
+About The Role:
+
+Machine Learning (ML) at the New York Times enhances the experience of our 150 million digital readers from around the globe and grows our subscriber base through content recommendations and personalizations. 
+
+The Machine Learning Platform (MLP) team builds and maintains the infrastructure that hosts all of The New York Times real-time ML inference models, including both data and compute. Our partners are Data Scientists that build and deploy their ML models on the ML platform. On the other end, our partners are engineering systems that call these hosted models with low-latency and Service Level Agreements (SLAs) guaranteed by the MLP.
+
+We are looking for a Software Engineer, with a focus on MLOps, to join our Machine Learning Platform team to help solve creative challenges around Machine Learning infrastructure for the New York Times.
+
+Hybrid work schedule based in New York City reporting to the engineering manager of the machine learning platform.
+
+Responsibilities:
+
+    You will research, develop, and deploy infrastructure for the Machine Learning Platform at scale
+
+    You will build infrastructure to train and test algorithms that provide real-time content recommendations and personalization
+
+    You will enhance ML platform’s CI/CD and integration testing capabilities
+
+    You will promote developer productivity by rolling out capabilities that maximize self-sufficiency and minimize the toil in learning those capabilities in building scalable applications with high speed, quality, and performance.
+
+ 
+
+Basic Qualifications:
+
+    2+ years of direct relevant experience in MLOps or DevOps, including experience operating large systems in a production environment
+
+    Experience deploying and monitoring systems using cloud infrastructure (GCP or AWS)
+
+    Experience working with Kubernetes, Docker, and CI/CD
+
+    Familiarity with at least one high-level programming language like Python or Go
+
+ 
+
+ Preferred Qualifications:
+
+    Experience with any of the these technologies: Terraform, Airflow, SQL/BigQuery, Drone, Triton, TensorFlow, scikit-learn, DataDog
+
+    Experience building real-world machine learning applications like recommendation systems, bandits, etc.
+
+    Experience engaging with stakeholders to understand pain points, observe patterns, and identify opportunities for improvements
+
+
+The New York Times is looking for a Senior Engineering Manager, Games to lead a team of engineers and collaborate with Product, Design and Producers to develop best-in-class multiplayer puzzle games on iOS and Android.
+
+NYT Games is a collaborative team that values inclusion, diversity and personal growth. We combine product development with a world-class suite of puzzles including beloved titles such as the NYT Crossword, Spelling Bee, Connections and Wordle. Come help us expand our portfolio with multiplayer mobile-based games as we continue delivering delightful experiences to millions daily.
+
+This role reports to the Head of Games Engineering and can either be based in our NYC headquarters or fully remote in the US.
+
+How We Work:
+
+We push code to production and improve the speed of delivery without compromising on quality. We generally build APIs in Go on AWS, iOS apps in Swift, Android apps in Kotlin and web front-ends in React. Engineering Managers motivate and guide teams to deliver high-quality work on time, and aligning their team members with our goals, creating a culture and processes that keep developers productive.
+
+Responsibilities:
+
+    Bring your technical expertise with building high traffic multiplayer games especially in mobile space 
+    Manage around 6-9 engineers ranging in career level and skillset across iOS, Android, Web and Backend
+    Foster an environment that boosts productivity and collaboration
+    Guide outcomes and set technical strategy involving multiple teams
+    Develop people and teams through coaching, mentoring and feedback
+    Work with product owners, designers, producers to deliver compelling puzzles and games
+    Help establish and advocate for engineering best practices
+    Demonstrate support and understanding of our value of journalistic independence and a strong commitment to our mission to seek the truth and help people understand the world
+
+Basic Qualifications:
+
+    3+ years of experience managing native mobile engineering teams
+    3+ years experience building high traffic social games or mobile apps with social features (ex: friend graph, leaderboards, matchmaking, or chat)
+    5+ years of experience building complex iOS or Android apps
+    Exposure work​ing​ with distributed systems to handle large-scale challenges
+    Demonstrated enthusiasm in collaborating with product and design 
+    Experience using open-ended questions as tools to coach your engineers and advocacy for continuous improvement and learning
+
+Preferred Qualifications:
+
+    Experience building distributed backend systems, especially for multiplayer games 
+
+    The New York Times is looking for an Engineering Manager in the Subscriber Experiences Mission to support the team responsible for the award-winning New York Times News apps: where millions of readers go to understand the events shaping the world.
+
+This is an important moment in the life of The New York Times. We have declared ourselves a subscription-first company, staking our future on producing journalism that is worth paying for and is unparalleled in its quality and depth of coverage. 
+
+The News apps are the core of the New York Times mobile experience. You will lead a collaborative and inclusive team of iOS engineers with the goal of delivering a performant, stable, and engaging app experience for our core news product.
+
+This is a hybrid role based in our New York City headquarters, reporting to the Sr. Director of Engineering. You could typically expect to work out of our office 2 days per week.
+
+Responsibilities:
+
+    Manage a group of mobile developers responsible for building, releasing, and maintaining the New York Times iOS News app and collaborating with dependent engineering teams 
+    Contribute to and support the team in architecture decisions, technical roadmap, and timeline estimations
+    Collaborate with the Mobile Platforms team to help the team implement best practices around core app architecture, development workflow, and coding standards
+    Collaborate with partners in Product, Design, and Data to prioritize and deliver features that will impact our subscriber growth goals
+    Manage career development for engineers at various stages of their career growth
+    Help create an inclusive and supportive culture within the App Experience team and the greater NYT engineering organization
+    Demonstrate support and understanding of our value of journalistic independence and a strong commitment to our mission to seek the truth and help people understand the world
+
+Basic Qualifications:
+
+    1+ years of experience managing a mobile engineering team
+    4+ years of experience building complex and performant iOS or Android apps
+    Demonstrated understanding of iOS best practices and how to advocate for iOS engineers
+    Experience working in complex product organizations, supporting stakeholders with diverse and sometimes conflicting technical and product requirements
+
+Preferred Qualifications:
+
+    Experience working with large legacy codebases
+    Experience promoting a culture of performance monitoring and observability
+    Experience working as the steward of a codebase with contributors from multiple engineering teams
+
+This role will require limited on-call hours. An on-call schedule will be determined when you join, taking into account team size and other variables.
+
+The Media Innovations Team (MIT) is a cross-functional partnership between product engineering, data science, and marketing. We think about advertising differently here - with a focus on first-party data only, our ad team centers the priorities of our users, our advertisers, and our newsroom through ad experiences that respect user privacy.
+
+We are looking to add a Senior Data Engineer to the MIT team that will own and shape the marketing data domain area and move forward business goals. Our ideal candidate is excited about data, motivated to learn new technologies, and comfortable collaborating with engineers from other teams, product owners, business teams, and data analysts and data scientists. In this role, you will devise data solutions to new marketing technology challenges and how they would integrate with our existing marketing technology stack, and then take them to production. This is a high-impact role, and your contributions will make a difference in the way The New York Times builds great relationships with passionate newsreaders.
+
+This role will report to the Engineering Manager, Media Innovations. The work location will be flexible to both remote or hybrid working models.
+
+Responsibilities:
+
+    Build and maintain new data pipelines to enable Marketing analytics and operations use cases
+    Modernize and simplify existing marketing data pipelines and datasets by using SQL modeling in dbt
+    Automate tasks such as end-to-end testing and report generation
+    Build transformation pipelines with tools such as BigQuery, dbt, Airflow, FiveTran, Mode and other services in Google Cloud Platform using languages such as Python, Go & SQL
+
+Basic Qualifications:
+
+    2+ years of full-time software engineering experience or equivalent
+    Experience building and supporting large-scale data pipelines and warehousing solutions
+    1+ years experience with backend systems and software engineering. Programming experience in a relevant language, e.g. Python, Java
+    1+ years experience working with SQL and strong understanding of Data Modeling
+    1+ years experience working with cloud platforms like GCP or AWS
+
+Preferred Qualifications:
+
+    Experience with data transformation utilizing frameworks such as dbt
+    Experience designing, maintaining, and monitoring an enterprise-wide data platform
+    Experience with distributed systems and event-driven architectures
+    Knowledge of different databases and storage technologies, like relational DBMSs, columnar storage, and key-value stores.
+    Experience with data extraction and load tools such as FiveTran
+
+The New York Times is looking for a Senior Engineering Manager to lead the Data Ad Products team in our Digital Advertising group. The Data Ad Products team contributes to The New York Times Advertising business by applying machine learning and AI and developing audience segmentation and targeting systems. These systems are integrated across The New York Times portfolio (News, Games, Cooking, Audio, Wirecutter, and The Athletic) as part of our powerful First Party Data program. 
+
+This is a hybrid role based in our New York City headquarters, reporting to the Senior Engineering Director, Digital Advertising Mission.
+
+Responsibilities:
+
+    Manage and motivate a team of 8-10 engineers as they build revenue-driving advertising products.
+    Lead engineers from junior to staff level to make maximum impact through feedback, recognition, coaching, and inclusivity.
+    Guide and direct the team’s technical operations, architecture designs, and decisions, ensuring they match with the group strategic vision.
+    Collaborate with partners in Product, Design, and Data to plan your team’s roadmap and deliver efficiently.
+    Demonstrate support and understanding of our value of journalistic independence and a strong commitment to our mission to seek the truth and help people understand the world.
+
+Basic Qualifications:
+
+    3-5 years of engineering management experience, recruiting and building high performing engineering teams. 
+    Experience with distributed, data-intensive systems deployed on modern cloud platforms.
+    Demonstrated technical leadership in driving delivery for complex, cross-functional projects, managing multiple stakeholders, and thinking beyond direct scope of your team.
+    Able to represent the team in technical discussions, identify and address technical problems and risks, and make hard decisions and tradeoffs.
+    Experience managing Senior and Staff level engineers.
+
+Preferred Qualifications:
+
+    Expertise in adtech, targeting or personalization systems.
+    Expertise in SQL, data modeling, and data infrastructure.
+    Experience with US and European privacy regulations.  
+    Familiarity with AI and machine learning techniques.
+
+    The New York Times is looking for a Senior QA Engineer to join the Games team. You'll join a team with frontend and backend engineers, product, project, data, and design and report to the QA Manager within the Games mission.
+
+Responsibilities:
+
+    Perform manual testing, measuring test coverage, and driving best practices in testing.
+
+    Create clear and concise test plans, estimate work, and monitor progress against milestones
+
+    Work closely with the offshore QA team and coordinate daily testing efforts by assigning them tasks regularly
+
+    Automate functional and regression tests with Playwright, WebdriverIO and Appium
+
+    Contribute to the modification, development, implementation, and maintenance of test automation frameworks
+
+    Collaborate with product managers, designers, and developers in an Agile environment to effectively test our products
+
+    Demonstrate support and understanding of our value of journalistic independence and a strong commitment to our mission to seek the truth and help people understand the world
+
+Basic Qualifications:
+
+    3+ years of quality assurance engineering experience especially in mobile apps
+
+    Experience preparing, documenting, and executing test criteria, test cases, test scripts, and test plans.
+
+    Proficiency with JavaScript or TypeScript
+
+    Experience with at least one automated test framework like Selenium, Appium, WebDriverIO, or Playwright
+
+    Knowledge with CI/CD frameworks to integrate quality automation into our build and release pipelines
+
+Preferred Qualifications:
+
+    Experience influencing and driving software engineering best practices
+
+    Familiarity assisting with triage, diagnosis, and resolution of issues discovered across teams
+
+    Familiarity writing codes that establishes and enhances frameworks
+
+    Experience reviewing code for the design, testability and clear usability
+
+​ This role may require limited on-call hours. An on-call schedule will be determined when you join, taking into account team size and other variables.
+
+#LI-Remote
+
+REQ-017005

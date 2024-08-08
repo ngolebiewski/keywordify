@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+</head>
+<body>
+    <h1>Analysis Results</h1>
+    
+    <h2>Tech-related Keywords Found in Job Description:</h2>
+    <ul>
+        {% for keyword, count in job_keywords.items() %}
+            <li>{{ keyword }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Tech-related Keywords Found in Your Resume:</h2>
+    <ul>
+        {% for keyword, count in resume_keywords.items() %}
+            <li>{{ keyword }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Keywords in the Job Description that are Also in Your Resume:</h2>
+    <ul>
+        {% for keyword, count in matched_keywords.items() %}
+            <li>{{ keyword }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Keywords Missing from Your Resume:</h2>
+    <ul>
+        {% for keyword, count in missing_keywords.items() %}
+            <li>{{ keyword }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+    
+    <a href="/">Upload New Files</a>
+</body>
+</html>
