@@ -1,0 +1,46 @@
+Senior Android Software Engineer
+Budapest
+R&D – Engineering /
+Full-time /
+Hybrid
+At Instructure, we believe in the power of people to grow and succeed throughout their lives. Our goal is to amplify that power by creating intuitive products that simplify learning and personal development, facilitate meaningful relationships, and inspire people to go further and careers. We do this by giving smart, creative, passionate people opportunities to create awesome products and tools. And that’s where You come in!
+
+What you will do:
+
+        Maintaining, improving, and developing features for our mobile app suite using Kotlin, Android SDK
+        Consuming the numerous RESTful and GraphQL APIs of Canvas
+        Building out automated ui tests and tools using technologies such as Espresso
+        Creating new features with close collaboration with the product/design team
+        Researching new technologies to leverage for app development
+        Our technology stack: Kotlin, Coroutines, Retrofit, Apollo GraphQL, MVVM with LiveData and Data Binding, Hilt, Jetpack Compose
+
+What you need to know
+
+        4+ years experience in professional Android development
+        Experience with releasing apps on Google Play Console
+        Deep understanding of Kotlin, Android SDK, Kotlin coroutines, design patterns, Android architecture, unit and UI testing
+        Ability and willingness to mentor and express concepts among cross functional teams clearly and succinctly
+        Computer Science related degree or equivalent work experience
+
+Nice to have
+
+        Experience with mobile CI/CD systems (Bitrise)
+        Experience with Jetpack Compose
+
+Get it on all the awesome at Instructure
+
+        A fun, friendly, and helpful company culture
+        Competitive compensation
+        Restricted Stock Unit Program
+        Private Medicover healthcare + cafeteria plan/SZEP card
+        Employee Stock Purchase Program
+        Wellness motivation through PandaFit
+        An extra week off for the whole company every year
+        Employee recognition program through Motivosity
+        Goal-setting, proactive reviews, and internal training
+        Employee assistance program
+
+We’ve always believed in hiring the most awesome people and treating them right. We know that the more diverse we are, the more diverse our ideas will be and when we openly welcome those ideas, our environment is better and our business is stronger.
+ 
+All Instructure employees are required to successfully pass a background check upon being hired.
+
