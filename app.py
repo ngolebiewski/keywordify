@@ -37,7 +37,7 @@ def extract_tech_keywords(job_description):
         'Docker', 'EC2', 'Elasticsearch', 'Electron', 'Express', 'Express.js', 'FastAPI', 'Figma', 'Firebase', 
         'Flask', 'Frameworks', 'Front-end Development', 'Full Stack', 'Game Engine', 'GCP', 'Git', 'GitHub', 
         'GraphQL', 'GULP', 'Hadoop', 'HTML', 'Java', 'JavaScript', 'Jenkins', 'Jira', 'Keras', 
-        'Kotlin', 'Kubernetes', 'Linux', 'Machine Learning', 'Material UI', 'Matplotlib', 'MongoDB', 
+        'Kotlin', 'Kubernetes', 'Linux', 'Machine Learning', 'Material UI', 'Matplotlib', 'MongoDB', 'modern frameworks',
         'MVVM with LiveData and Data Binding', 'MySQL', 'Node', 'Node.js', 'NoSQL', 
         'NoSQL Databases', 'NumPy', 'OAuth', 'pandas', 'Phaser', 'Phaser3', 'Photoshop', 'PHP', 
         'Poetry', 'Postgres', 'PostgreSQL', 'Prisma ORM', 'Problem-solving', 'p5.js', 'PyTest', 'Pyramid', 

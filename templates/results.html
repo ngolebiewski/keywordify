@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Analysis Results</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
     <h1>Analysis Results</h1>
@@ -25,16 +26,137 @@
     <h2>Keywords in the Job Description that are Also in Your Resume:</h2>
     <ul>
         {% for keyword, count in matched_keywords.items() %}
-            <li>{{ keyword }}: {{ count }}</li>
+            <li style="color: green;">{{ keyword }}: {{ count }}</li>
         {% endfor %}
     </ul>
     
     <h2>Keywords Missing from Your Resume:</h2>
     <ul>
         {% for keyword, count in missing_keywords.items() %}
-            <li>{{ keyword }}: {{ count }}</li>
+            <li style="color: red;">{{ keyword }}: {{ count }}</li>
         {% endfor %}
     </ul>
+
+    <h2>Visualization:</h2>
+    <div id="bar-chart" style="width: 100%; height: 700px;"></div>
+
+    <h2>Sunburst Chart:</h2>
+    <div id="sunburst-chart" style="width: 100%; height: 700px;"></div>
+
+    <script>
+        // Debugging: Log the data to the console
+        console.log('Job Keywords:', {{ job_keywords | tojson }});
+        console.log('Matched Keywords:', {{ matched_keywords | tojson }});
+        console.log('Missing Keywords:', {{ missing_keywords | tojson }});
+
+        var jobKeywords = {{ job_keywords | tojson }};
+        var matchedKeywords = {{ matched_keywords | tojson }};
+        var missingKeywords = {{ missing_keywords | tojson }};
+
+        var jobKeywordsData = Object.keys(jobKeywords).map(function(key) {
+            return { keyword: key, count: jobKeywords[key] };
+        });
+
+        var matchedKeywordsData = Object.keys(matchedKeywords).map(function(key) {
+            return { keyword: key, count: matchedKeywords[key] };
+        });
+
+        var missingKeywordsData = Object.keys(missingKeywords).map(function(key) {
+            return { keyword: key, count: -missingKeywords[key] };
+        });
+
+        var trace1 = {
+            x: jobKeywordsData.map(d => d.keyword),
+            y: jobKeywordsData.map(d => d.count),
+            type: 'bar',
+            name: 'Job Description Keywords',
+            marker: { color: 'gray' }
+        };
+
+        var trace2 = {
+            x: matchedKeywordsData.map(d => d.keyword),
+            y: matchedKeywordsData.map(d => d.count),
+            type: 'bar',
+            name: 'Matched Keywords',
+            marker: { color: 'green' }
+        };
+
+        var trace3 = {
+            x: missingKeywordsData.map(d => d.keyword),
+            y: missingKeywordsData.map(d => d.count),
+            type: 'bar',
+            name: 'Missing Keywords',
+            marker: { color: 'red' }
+        };
+
+        var data = [trace1, trace2, trace3];
+
+        var layout = {
+            barmode: 'group',
+            title: 'Keyword Analysis Results',
+            xaxis: { title: 'Keywords' },
+            yaxis: { title: 'Frequency' },
+            height: 700
+        };
+
+        Plotly.newPlot('bar-chart', data, layout);
+
+        // Create Sunburst chart data
+        var labels = [];
+        var parents = [];
+        var values = [];
+        
+        // Add Job Description Keywords
+        labels.push('Job Description Keywords');
+        values.push(Object.values(jobKeywords).reduce((a, b) => a + b, 0)); // Total count
+        parents.push('');
+
+        Object.keys(jobKeywords).forEach(keyword => {
+            labels.push(keyword);
+            values.push(jobKeywords[keyword]);
+            parents.push('Job Description Keywords');
+        });
+
+        // Add Matched Keywords
+        labels.push('Matched Keywords');
+        values.push(Object.values(matchedKeywords).reduce((a, b) => a + b, 0)); // Total count
+        parents.push('');
+
+        Object.keys(matchedKeywords).forEach(keyword => {
+            labels.push(keyword);
+            values.push(matchedKeywords[keyword]);
+            parents.push('Matched Keywords');
+        });
+
+        // Add Missing Keywords
+        labels.push('Missing Keywords');
+        values.push(Object.values(missingKeywords).reduce((a, b) => a + b, 0)); // Total count
+        parents.push('');
+
+        Object.keys(missingKeywords).forEach(keyword => {
+            labels.push(keyword);
+            values.push(missingKeywords[keyword]);
+            parents.push('Missing Keywords');
+        });
+
+        var sunburstData = [{
+            type: 'sunburst',
+            labels: labels,
+            parents: parents,
+            values: values,
+            branchvalues: 'total',
+            marker: {
+                colors: ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2c2f0', '#ffb3e6', '#c2f0c2', '#ff6666']
+            }
+        }];
+
+        var sunburstLayout = {
+            title: 'Sunburst Chart of Keywords',
+            height: 700
+        };
+
+        Plotly.newPlot('sunburst-chart', sunburstData, sunburstLayout);
+    </script>
     
     <a href="/">Upload New Files</a>
 </body>
