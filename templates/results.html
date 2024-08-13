@@ -147,13 +147,37 @@
           values: values,
           branchvalues: 'total',
           marker: {
-              colors: ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2c2f0', '#ffb3e6', '#c2f0c2', '#ff6666']
+            colors: [   // based on Pantone colors of the year
+            '#7d3f9c', // 2024: Violet Verbena
+            '#d53f78', // 2023: Viva Magenta
+            '#6d28d9', // 2022: Very Peri
+            '#9e9e9e', // 2021: Ultimate Gray
+            '#f7e300', // 2021: Illuminating
+            '#0033b4', // 2020: Classic Blue
+            '#f15a29', // 2019: Living Coral
+            '#5a2d81', // 2018: Ultra Violet
+            '#4caf50', // 2017: Greenery
+            '#c6a0a8', // 2016: Rose Quartz
+            '#7f8c8d', // 2016: Serenity
+            '#7a3a2a', // 2015: Marsala
+            '#d46a6a', // 2014: Radiant Orchid
+            '#009a6c', // 2013: Emerald
+            '#f57c00', // 2012: Tangerine Tango
+            '#d55b82', // 2011: Honeysuckle
+            '#00bcd4', // 2010: Turquoise
+            '#f7c300', // 2009: Mimosa
+            '#5b2a7b', // 2008: Blue Iris
+            '#b73c6c', // 2007: Chili Pepper
+            '#a7d300', // 2006: Lime Green
+            '#ff6f61'  // 2005: Coral
+          ]
+
           }
       }];
 
       var sunburstLayout = {
           title: 'Sunburst Chart of Keywords',
-          height: 700
+          height: 700,
       };
 
       Plotly.newPlot('sunburst-chart', sunburstData, sunburstLayout);
