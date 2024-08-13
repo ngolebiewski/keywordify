@@ -1,0 +1,47 @@
+Hey! We’re Grubhub
+
+We’re all about connecting hungry diners with our network of over 300,000 restaurants nationwide. Innovative technology, user-friendly platforms and streamlined delivery capabilities set us apart and make us an industry leader in the world of online food ordering. When you join our team, you become part of a community that works together to innovate, solve problems, grow, work hard and have a ton of fun in the process!
+
+
+Why Work For Us
+
+Grubhub is a place where authentically fun culture meets innovation and teamwork. We believe in empowering people and opening doors for new opportunities. If you’re looking for a place that values strong relationships, embraces diverse ideas–all while having fun together–Grubhub is the place for you!
+
+
+Come join the Grubhub team to help build the next-generation growth engine for restaurants, connecting brands and guests with a seamless customer experience that blends analytics, loyalty, and rewards. And now as part of one of the nation’s leading online and mobile food ordering companies, Grubhub is on the front lines creating an even more complete solution for restaurants.
+
+
+As a Staff Web Engineer in the Diner Experience organization, you will be designing the architecture of eCommerce applications used by millions of users every day. You’ll spend time coaching and leading the engineers that contribute to the application, helping to bring out the best in our engineering organization. Grubhub wants teams to have the autonomy to come up with creative solutions to problems and you’ll be responsible for helping shepherd that culture.
+
+Our Staff Engineers wear a lot of hats - including hands-on coding, mentoring developers, influencing our product vision, and designing our system architecture. We have high standards for code quality, all forms of testing, and intelligent architecture.
+
+
+The Impact You Will Make
+
+    Architect, implement and test technology solutions at Grubhub
+    Provide technical mentorship, guidance and quality-focused code review to your team members
+    Coach your team on how to translate product needs into wise choices
+    Build and maintain large-scale, high-availability web applications with an active and growing user base
+    Collaborate with Frontend Platform engineers to contribute patterns and libraries that can set the standard across GrubHub engineering
+    Construct reusable components and front-end libraries for future use across our product suite
+    Translate designs and wireframes into high quality code
+    Optimize components for maximum performance across a vast array of web-capable devices and browsers
+    Ensure quality by designing SLOs, and balancing the tradeoffs between our UI, integration and unit test suites
+    Identify, triage and solve complex issues and problems in timely and efficient manner
+    You will work with your team to monitor and ensure the health of the platform, which includes a 24/7 hour on-call rotation, to ensure a great customer experience.
+
+
+What You Bring to the Table
+
+    Extensive professional experience (+/- 5 years) with front-end web development, including command of a modern framework - React, Redux and Typescript preferred
+    Experience building a frontend that serves several microservices
+    Bachelor’s degree in Computer Science or ample real world experience
+    Expertise with Javascript, CSS, HTML
+    Experience with common front-end development tools such as Babel, Webpack, NPM, etc.
+    Familiarity with a modern server side framework - Rails/Java a plus
+    Strong proficiency using and building RESTful, gRPC or GraphQL web APIs
+    Familiarity with Agile software development methodologies
+    Self-directed and responsible for deliverables of yourself and fellow team members
+    Team player with excellent written and spoken communication skills
+
+

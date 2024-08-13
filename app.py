@@ -4,8 +4,10 @@ import string
 from collections import Counter
 from flask import Flask, request, render_template, redirect
 from werkzeug.utils import secure_filename
+# from flask_bootstrap import Bootstrap5
 
 app = Flask(__name__)
+# bootstrap = Bootstrap5(app)
 
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'txt'}

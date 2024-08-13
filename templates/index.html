@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Keywordify</title>
-</head>
-<body>
+    <link rel="stylesheet" href="static/index.css" />
+  </head>
+  <body>
     <h1>Keywordify</h1>
+    <h3>by <a href="https://github.com/ngolebiewski" />Nick Golebiewski</a></h3>
+    <hr />
     <h3>Resume/Job Description tech keyword checker</h3>
     <h1>Upload Job Description and Resume</h1>
     <form action="/upload" method="post" enctype="multipart/form-data">
-        <label for="job_description">Job Description (TXT):</label>
-        <input type="file" name="job_description" id="job_description" required><br><br>
-        <label for="resume">Resume (TXT):</label>
-        <input type="file" name="resume" id="resume" required><br><br>
-        <input type="submit" value="Upload">
+      <label for="job_description">Job Description (TXT):</label>
+      <input
+        type="file"
+        name="job_description"
+        id="job_description"
+        required
+      /><br /><br />
+      <label for="resume">Resume (TXT):</label>
+      <input type="file" name="resume" id="resume" required /><br /><br />
+      <input type="submit" value="Upload" />
     </form>
-</body>
+  </body>
 </html>
