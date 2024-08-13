@@ -4,10 +4,8 @@ import string
 from collections import Counter
 from flask import Flask, request, render_template, redirect
 from werkzeug.utils import secure_filename
-# from flask_bootstrap import Bootstrap5
 
 app = Flask(__name__)
-# bootstrap = Bootstrap5(app)
 
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'txt'}
@@ -29,40 +27,43 @@ def extract_text_from_txt(txt_file_path):
         text = file.read()
     return text
 
+def clean_text(text):
+    # This regex removes punctuation except for those that are part of a word (e.g., "node.js")
+    return re.sub(r'(?<!\w)[^\w\s](?!\w)', '', text).lower()
+
 def extract_tech_keywords(job_description):
     tech_keywords = [
-    '0 to 1', 'A11y', 'AI', 'API', 'API Integration', 'ASP.NET', 'AWS', 'AWS Lambda', 
-    'Accessibility', 'Adaptability', 'Agile', 'Agile Development Methodologies', 'Android', 
-    'Angular', 'Apollo GraphQL', 'App Store', 'Architecture', 'Assembly', 'Azure', 
-    'B2B', 'Back-end Development', 'Bash', 'C', 'C#', 'C++', 'CI/CD', 'CSS', 
-    'Cloud Infrastructure', 'Cloud Platforms', 'CloudFront', 'Continuous Deployment', 
-    'Continuous Integration', 'Coroutines', 'Cross-functional', 'Dart', 'Data Science', 
-    'Debugging', 'DevOps', 'Django', 'Docker', 'EC2', 'Elasticsearch', 'Electron', 
-    'Elixir', 'Erlang', 'Express', 'Express.js', 'F#', 'FastAPI', 'Figma', 'Firebase', 
-    'Flask', 'Frameworks', 'Front-end Development', 'Full Stack', 'GCP', 'GULP', 
-    'Game Engine', 'Git', 'GitHub', 'Go', 'GraphQL', 'HTML', 'Hadoop', 'Haskell', 
-    'Java', 'JavaScript', 'Jenkins', 'Jira', 'Julia', 'Keras', 'Kotlin', 'Kubernetes', 
-    'Linux', 'Lua', 'MATLAB', 'MVVM with LiveData and Data Binding', 'Machine Learning', 
-    'Material UI', 'Matplotlib', 'Mobile', 'MongoDB', 'MySQL', 'NoSQL', 
-    'NoSQL Databases', 'Node', 'Node.js', 'NumPy', 'OAuth', 'PHP', 'PL/SQL', 
-    'Perl', 'Phaser', 'Phaser3', 'Photoshop', 'Poetry', 'PostgreSQL', 'Postgres', 
-    'PowerShell', 'Prisma ORM', 'Problem-solving', 'PyTest', 'PyTorch', 'Pyramid', 
-    'Python', 'QA', 'R', 'REST APIs', 'Racket', 'Rails', 'React', 'React Native', 
-    'Redis', 'Redux', 'Relational Database', 'Reliability', 'Render', 'Retrofit', 
-    'Ruby', 'Ruby on Rails', 'Rust', 'SAML', 'SCIM', 'SDK', 'SFTP', 'SQL', 'SSH', 
-    'SaaS', 'Scala', 'Scalability', 'Scheme', 'Security', 'Serverless', 
-    'Shell Scripting', 'Single Sign-on', 'Socket.io', 'Spring', 'Spring Boot', 
-    'Swift', 'T-SQL', 'Tailwind CSS', 'Team Collaboration', 'TensorFlow', 
-    'Testing Frameworks', 'Triage', 'TypeScript', 'UI/UX', 'Unity', 'Unreal', 
-    'User Privacy', 'VHDL', 'Verilog', 'Version Control', 'Vite', 'Vue', 
-    'Vue.js', 'WCAG', 'Web Development', 'Web Performance', 'WordPress', 
-    'backend', 'block-chain', 'data', 'frontend', 'frontend fundamentals', 
-    'iOS', 'mobile platforms', 'modern frameworks', 'p5.js', 'pandas', 
-    'product management', 'springboot'
+        '0 to 1', 'A11y', 'AI', 'API', 'API Integration', 'ASP.NET', 'AWS', 'AWS Lambda', 
+        'Accessibility', 'Adaptability', 'Agile', 'Agile Development Methodologies', 'Android', 
+        'Angular', 'Apollo GraphQL', 'App Store', 'Architecture', 'Assembly', 'Azure', 
+        'B2B', 'Back-end Development', 'Bash', 'C', 'C#', 'C++', 'CI/CD', 'CSS', 
+        'Cloud Infrastructure', 'Cloud Platforms', 'CloudFront', 'Continuous Deployment', 
+        'Continuous Integration', 'Coroutines', 'Cross-functional', 'Dart', 'Data Science', 
+        'Debugging', 'DevOps', 'Django', 'Docker', 'EC2', 'Elasticsearch', 'Electron', 
+        'Elixir', 'Erlang', 'Express', 'Express.js', 'F#', 'FastAPI', 'Figma', 'Firebase', 
+        'Flask', 'Frameworks', 'Front-end Development', 'Full Stack', 'GCP', 'GULP', 
+        'Game Engine', 'Git', 'GitHub', 'Go', 'GraphQL', 'HTML', 'Hadoop', 'Haskell', 
+        'Java', 'JavaScript', 'Jenkins', 'Jira', 'Julia', 'Keras', 'Kotlin', 'Kubernetes', 
+        'Linux', 'Lua', 'MATLAB', 'MVVM with LiveData and Data Binding', 'Machine Learning', 
+        'Material UI', 'Matplotlib', 'Mobile', 'MongoDB', 'MySQL', 'NoSQL', 
+        'NoSQL Databases', 'Node', 'Node.js', 'NumPy', 'OAuth', 'PHP', 'PL/SQL', 
+        'Perl', 'Phaser', 'Phaser3', 'Photoshop', 'Poetry', 'PostgreSQL', 'Postgres', 
+        'PowerShell', 'Prisma ORM', 'Problem-solving', 'PyTest', 'PyTorch', 'Pyramid', 
+        'Python', 'QA', 'R', 'REST APIs', 'Racket', 'Rails', 'React', 'React Native', 
+        'Redis', 'Redux', 'Relational Database', 'Reliability', 'Render', 'Retrofit', 
+        'Ruby', 'Ruby on Rails', 'Rust', 'SAML', 'SCIM', 'SDK', 'SFTP', 'SQL', 'SSH', 
+        'SaaS', 'Scala', 'Scalability', 'Scheme', 'Security', 'Serverless', 
+        'Shell Scripting', 'Single Sign-on', 'Socket.io', 'Spring', 'Spring Boot', 
+        'Swift', 'T-SQL', 'Tailwind CSS', 'Team Collaboration', 'TensorFlow', 
+        'Testing Frameworks', 'Triage', 'TypeScript', 'UI/UX', 'Unity', 'Unreal', 
+        'User Privacy', 'VHDL', 'Verilog', 'Version Control', 'Vite', 'Vue', 
+        'Vue.js', 'WCAG', 'Web Development', 'Web Performance', 'WordPress', 
+        'backend', 'block-chain', 'data', 'frontend', 'frontend fundamentals', 
+        'iOS', 'mobile platforms', 'modern frameworks', 'p5.js', 'pandas', 
+        'product management', 'springboot'
     ]
 
-
-    job_description = job_description.translate(str.maketrans('', '', string.punctuation)).lower()
+    job_description = clean_text(job_description)
     keyword_counts = Counter()
     for keyword in tech_keywords:
         count = len(re.findall(r'\b' + re.escape(keyword.lower()) + r'\b', job_description))
@@ -71,7 +72,7 @@ def extract_tech_keywords(job_description):
     return keyword_counts
 
 def analyze_resume_against_keywords(resume, keyword_counts):
-    resume = resume.translate(str.maketrans('', '', string.punctuation)).lower()
+    resume = clean_text(resume)
     resume_counts = Counter()
     for keyword in keyword_counts:
         count = len(re.findall(r'\b' + re.escape(keyword.lower()) + r'\b', resume))
