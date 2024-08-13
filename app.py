@@ -29,19 +29,24 @@ def extract_text_from_txt(txt_file_path):
 
 def extract_tech_keywords(job_description):
     tech_keywords = [
-        '0 to 1', 'AI', 'Adaptability', 'Agile', 'Agile Development Methodologies', 'Angular', 
-        'API Integration', 'App Store', 'Architecture', 'AWS', 'AWS Lambda', 'Azure', 'Backend',
-        'Back-end Development', 'Bash', 'C#', 'C++', 'CloudFront', 'Cloud Infrastructure', 
-        'Cloud Platforms', 'Containerization', 'Continuous Deployment', 'Continuous Integration', 
-        'Cross-functional', 'CSS', 'Data Science', 'Debugging', 'DevOps', 'Django', 'Docker', 
-        'Elasticsearch', 'EC2', 'Express.js', 'Firebase', 'Flask', 'FastAPI', 'Frontend', 'Front-end Development', 
-        'Full Stack', 'Fullstack', 'GCP', 'Git', 'github', 'GraphQL', 'Hadoop', 'Java', 'JavaScript', 'Jenkins', 'Jest', 'Keras', 
-        'Kotlin', 'Kubernetes', 'Linux', 'Machine Learning', 'Matplotlib', 'Mocha', 'MongoDB', 'MySQL', 
-        'Node', 'Node.js', 'NoSQL', 'NoSQL Databases', 'NumPy', 'Pandas', 'PHP', 'postgres', 'PostgreSQL', 
-        'Problem-solving', 'PyTorch', 'PyTest', 'Pyramid', 'React', 'React Native', 'Redis', 'Reliability', 
-        'Ruby', 'Ruby on Rails', 'Scalability', 'Scrum', 'Security', 'Serverless', 'Shell Scripting', 
-        'SQL', 'Team Collaboration', 'Testing Frameworks', 'TensorFlow', 'TypeScript', 
-        'Unix', 'UI/UX', 'User Privacy', 'Version Control', 'Vue.js', 'Web Development'
+        '0 to 1', 'Accessibility', 'A11y', 'Adaptability', 'Agile', 'Agile Development Methodologies', 'AI', 'Angular', 
+        'API', 'API Integration', 'Apollo GraphQL', 'App Store', 'Architecture', 'AWS', 'AWS Lambda', 
+        'Azure', 'Back-end Development', 'Bash', 'B2B', 'C#', 'C++', 'CI/CD', 'Cloud Infrastructure', 
+        'Cloud Platforms', 'CloudFront', 'Continuous Deployment', 'Continuous Integration', 
+        'Coroutines', 'Cross-functional', 'CSS', 'Data Science', 'Debugging', 'DevOps', 'Django', 
+        'Docker', 'EC2', 'Elasticsearch', 'Electron', 'Express', 'Express.js', 'FastAPI', 'Figma', 'Firebase', 
+        'Flask', 'Frameworks', 'Front-end Development', 'Full Stack', 'Game Engine', 'GCP', 'Git', 'GitHub', 
+        'GraphQL', 'GULP', 'Hadoop', 'HTML', 'Java', 'JavaScript', 'Jenkins', 'Jira', 'Keras', 
+        'Kotlin', 'Kubernetes', 'Linux', 'Machine Learning', 'Material UI', 'Matplotlib', 'MongoDB', 
+        'MVVM with LiveData and Data Binding', 'MySQL', 'Node', 'Node.js', 'NoSQL', 
+        'NoSQL Databases', 'NumPy', 'OAuth', 'pandas', 'Phaser', 'Phaser3', 'Photoshop', 'PHP', 
+        'Poetry', 'Postgres', 'PostgreSQL', 'Prisma ORM', 'Problem-solving', 'p5.js', 'PyTest', 'Pyramid', 
+        'PyTorch', 'Rails', 'React', 'React Native', 'Redis', 'Relational Database', 'Reliability', 
+        'Render', 'REST APIs', 'Retrofit', 'Redux', 'Ruby', 'Ruby on Rails', 'SaaS', 'SAML', 
+        'Scalability', 'SCIM', 'Security', 'Serverless', 'SDK', 'Shell Scripting', 'Single Sign-on', 
+        'Socket.io', 'Spring', 'Spring Boot', 'springboot', 'SQL', 'SSH', 'SFTP', 'Tailwind CSS', 'Team Collaboration', 
+        'TensorFlow', 'Testing Frameworks', 'Triage', 'TypeScript', 'UI/UX', 'Unity', 'Unreal', 
+        'User Privacy', 'Version Control', 'Vite', 'Vue', 'Vue.js', 'WCAG', 'Web Development', 'Web Performance', 'WordPress'
     ]
 
     job_description = job_description.translate(str.maketrans('', '', string.punctuation)).lower()

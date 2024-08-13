@@ -1,0 +1,57 @@
+Software Engineer, Games Discovery
+(View all jobs)
+New York, NY
+
+The mission of The New York Times is to seek the truth and help people understand the world. That means independent journalism is at the heart of all we do as a company. It’s why we have a world-renowned newsroom that sends journalists to report on the ground from nearly 160 countries. It’s why we focus deeply on how our readers will experience our journalism, from print to audio to a world-class digital and app destination. And it’s why our business strategy centers on making journalism so good that it’s worth paying for. 
+
+About the Role
+
+The New York Times is looking for a software engineer with full stack skills to join the Discovery+ squad within the Games team. This is a hybrid role based in our New York City headquarters that reports to the Engineering Manager of the team.
+
+We’re a team of engineers, designers, producers, and product managers that helps users discover our games and embark on the journey of becoming a lifelong subscriber. Your work will include engineering exciting features across desktop and mobile that deepen user habits and relationships with our games.
+
+We build our web applications in TypeScript and Node.js, our APIs in Go, and our frontends in React with accessible, semantic HTML and CSS. We’re hosted almost entirely on Google Cloud Platform and will eventually move to AWS.
+
+NYT Games is a collaborative team that values inclusion, diversity, and personal growth. We combine product development with a world-class suite of puzzles, including beloved titles such as the NYT Crossword, Spelling Bee, and Wordle. We are on a mission to build high-quality gaming experiences to accelerate our subscriber growth.
+
+Responsibilities:
+
+    Design, develop, and test entry points across NYT surfaces (web and mobile) to help users discover our games.
+    Collaborate with partner teams to help monetize our Games through subscriptions and advertising.
+    Work with product, design, data, QA, and project management to identify opportunities to deepen and evolve users’ habits with the product.
+    Demonstrate support and understanding of our value of journalistic independence and a strong commitment to our mission to seek the truth and help people understand the world.
+
+Basic Qualifications:
+
+    Demonstrated understanding of frontend web fundamentals (HTML, CSS, JavaScript, web performance, accessibility).
+    2+ years of experience in one or more frontend frameworks (React, Angular, Vue).
+    Experience designing and integrating APIs.
+
+Preferred Qualifications:
+
+    2+ years of developing software using modern JavaScript frameworks on both the server and client.
+    Familiarity with mobile platforms (Android and iOS).
+    Experience keeping end-user satisfaction as a top priority.
+    Embrace challenges, learn from mistakes, and share insights with others.
+
+#LI-Hybrid
+
+This role may require limited on-call hours. An on-call schedule will be determined when you join, taking into account team size and other variables.
+
+REQ-017027
+The annual base pay range for this role is between:
+$104,000—$130,000 USD
+
+The New York Times is committed to a diverse and inclusive workforce, one that reflects the varied global community we serve. Our journalism and the products we build in the service of that journalism greatly benefit from a range of perspectives, which can only come from diversity of all types, across our ranks, at all levels of the organization. Achieving true diversity and inclusion is the right thing to do. It is also the smart thing for our business. So we strongly encourage women, veterans, people with disabilities, people of color and gender nonconforming candidates to apply.
+
+The New York Times Company is an Equal Opportunity Employer and does not discriminate on the basis of an individual's sex, age, race, color, creed, national origin, alienage, religion, marital status, pregnancy, sexual orientation or affectional preference, gender identity and expression, disability, genetic trait or predisposition, carrier status, citizenship, veteran or military status and other personal characteristics protected by law. All applications will receive consideration for employment without regard to legally protected characteristics. The New York Times Company will provide reasonable accommodations as required by applicable federal, state, and/or local laws. Individuals seeking an accommodation for the application or interview process should email reasonable.accommodations@nytimes.com. Emails sent for unrelated issues, such as following up on an application, will not receive a response.
+
+The Company will further consider qualified applicants, including those with criminal histories, in a manner consistent with the requirements of applicable "Fair Chance" laws. 
+
+The New York Times Company follows the pay transparency and non-discrimination provisions outlined by the United States Office of Federal Contract Compliance Programs. Click here for details.
+
+For information about The New York Times' privacy practices for job applicants click here.
+
+Please beware of fraudulent job postings. Scammers may post fraudulent job opportunities, and they may even make fraudulent employment offers. This is done by bad actors to collect personal information and money from victims. All legitimate job opportunities from The New York Times will be accessible through The New York Times careers site. The New York Times will not ask job applicants for financial information or for payment, and will not refer you to a third party to do so. You should never send money to anyone who suggests they can provide employment with The New York Times. 
+
+If you see a fake or fraudulent job posting, or if you suspect you have received a fraudulent offer, you can report it to The New York Times at security@nytimes.com. You can also file a report with the Federal Trade Commission or your state attorney general.
