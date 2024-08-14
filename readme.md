@@ -33,4 +33,6 @@ Learning Flask as I go. So here we go!
 6. Connect mySQL db to save new keywords for list, and overall data, etc.
 7. Build login to save your resume (can Render do SQLite from just their web services plan?)
 
+![circle chart of matched keywords](static/images/matched_keywords.png)
 
+![circle chart of missing keywords](static/images/missing_keywords.png)

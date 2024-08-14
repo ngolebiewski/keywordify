@@ -1,0 +1,75 @@
+Client Services Engineer, New York
+Location
+
+New York
+Type
+
+Full time
+Department
+
+Engineering
+Overview
+Application
+
+Institutional Fabric for the Digital Asset Market
+
+Founded in 2018, Talos provides institutional-grade trading technology for the global digital asset market, powering many of the major players in the crypto ecosystem.  
+
+Our mission at Talos is clear: to advance the mass adoption of digital assets by seamlessly connecting institutions to the digital asset ecosystem. We are committed to building the most innovative and trusted platform in the world, supporting the entire trading lifecycle.
+
+At Talos, you'll find an environment that champions kindness and respect, values diverse perspectives, and upholds inclusivity at every turn. We believe that every member of our team adds invaluable insights and abilities that drive Talos forward. In our pursuit of excellence, we foster a culture of trust and integrity, collaboration, and mutual growth. Together, we are ambitiously building something extraordinary. Your unique talents and insights will play a crucial role in our shared success.
+
+We are a tight-knit but decentralized team of highly-experienced engineers and businesspeople. We have a hybrid-friendly work environment, with physical hubs in New York, London, Singapore, Sweden and Cyprus.
+
+About the Role
+Client Services Engineer, NYC
+
+Talos is currently seeking a Client Services Engineer to help streamline client service by creating automation and instrumentation solutions. You'll identify common client issues and develop proactive solutions to prevent them. You'll also help maintain system stability through real-time monitoring of our production systems. As part of a global team, you'll serve as a key contact between Talos and our clients, addressing trading and operational queries. This role provides an exciting opportunity to gain hands-on experience in a dynamic and fast-paced environment.
+
+Responsibilities and Duties
+
+    Innovate Client Services: Drive the transformation and reduction of “toil” of client support by developing innovative automation solutions, ensuring seamless and efficient service experiences.
+
+    Anticipate and Solve Problems: Stay ahead of client needs by identifying common pain points and creating proactive solutions, preventing issues before they arise.
+
+    Enhance Client Experience: Act as a trusted advisor and main point of contact for clients, handling trading and operational queries with expertise and dedication as part of our global team.
+
+    Ensure System Reliability: Help maintain system stability and health, employing real-time monitoring to keep our production systems running smoothly and efficiently.
+
+Qualifications
+
+    3+ years of experience in customer-facing support / engineering role
+
+    Engineering degree or quantitative equivalent or similar experience
+
+    Programming and / or scripting experience (Python, Shell, Javascript)
+
+    Experience with Linux 
+
+    Experience with distributed systems / cloud services is nice to have
+
+    Familiarity with monitoring, observability, telemetry, and SRE principles is advantageous. 
+
+    Programming experience with generative AI (ChatGPT) and Bot-based solutions via chat (Slack) is nice to have
+
+    Experience with trading systems in either capital markets or digital assets strongly preferred
+
+    Curious, willing to learn, and question existing processes and protocols
+
+    Exceptional problem-solving ability
+
+Benefits 
+
+You will also enjoy a comprehensive array of competitive benefits, regardless of your location, within our warm, welcoming, and ambitious company culture. Our offerings include a monthly wellness credit for personal use, such as gym memberships, massages, or even a ski pass for your next holiday. Additionally, we provide paid lunches in the office, monthly fitness and evening socials to foster connections with colleagues, and annual offsite events to engage with the wider team.
+
+In New York City, the annual base compensation range is $140,000 - $180,000. This position is eligible for discretionary bonus.
+
+Get In Touch!
+
+Sounds compelling?  We’d love to hear from you.  Contact us directly.
+
+Also, check out other open positions listed on our website.
+
+Talos is proud to be an Equal Opportunity employer.  We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics.  Talos is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process.  If you need any assistance or accommodations due to a disability, please let us know at careers@talos.com.
+
+© Talos Trading, careers@talos.com

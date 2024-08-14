@@ -1,0 +1,74 @@
+Project Healthy Minds logo
+Full Stack Engineer
+New York, NY
+Digital Product – Engineering /
+Full-time /
+On-site
+ABOUT PROJECT HEALTHY MINDS
+
+Project Healthy Minds is a mental health tech non-profit startup. We are pioneering a first-of-its-kind model: applying technology to address one of the biggest social issues of our time: the growing mental health crisis. We believe in a simple but profound idea: that it should be as easy to find mental health services as it is to book a flight or a restaurant reservation. That's why we're building the world’s first digital marketplace for finding mental health services that are right for you. 
+
+To do that, we work with some of the most inspiring and influential leaders in America - business titans, tech entrepreneurs, clinicians and scientists, musicians, artists, athletes, media stars, policymakers, and more. Because we believe that the world's most complex challenges require interdisciplinary teams and solutions.
+
+We are backed by a powerhouse of industry-leading Board of Directors and Advisory Council Members who are passionate, hands-on, and dive into the important work with us.
+
+Learn more at projecthealthyminds.com and @projecthealthyminds on social.
+
+ABOUT THE ROLE 
+
+WHAT WE’RE LOOKING FOR:
+We are seeking an experienced full stack developer to join our team based in NYC. Our ideal candidate works well in a startup environment and has been an early employee at other fast-growing, scrappy startups. As a full stack developer, you will play a crucial role in establishing a flexible backend infrastructure that supports a wide variety of functionality, including taxonomy creation, search, filtering, data engineering, and event tracking, as well as implementing the FE web design. Contractors can be utilized to augment your skill set.
+
+HOW YOU’LL CONTRIBUTE:
+● Lead the product development for our user-facing web application, both through incremental improvement and also wholly new features
+● Help shape the engineering practice here at Project Healthy Minds including hiring other engineers or outsourcing work to contractors
+● Improve our existing tech stack and tech architecture decisions including data architecture
+ 
+RESPONSIBILITIES:
+● Architecture – Architects the system and the supporting technologies needed to enable new and/or enhanced functionality, applying principles that promote availability, reusability, interoperability, and security into the design framework
+● Front End Engineering – Design, develop, and maintain frontend web marketplace experience
+● Backend Architecture Development – Design, develop, and maintain the backend infrastructure for the mental health services marketplace, ensuring scalability, reliability, and performance
+● Data Engineering – Work on data pipelines, data modeling, and data processing tasks to manage and analyze large datasets related to mental health services selected and user interactions on our website
+● User Analytics – Implement event tracking software to capture user interactions, behavior patterns, and engagement metrics to optimize the platform's performance and user experience
+● DevOps Ownership – Own the continuous integration and continuous deployment pipeline, troubleshoot performance, and keep our services running seamlessly
+● Cloud Administration – Own the operation of the technological infrastructure of an organization and transferring specific functions and procedures to a cloud-based platform
+
+REQUIREMENTS:
+● Bachelor's degree in Computer Science, Engineering, or related field or related practical experience
+● 5-7+ years of programming experience with proven experience as a full stack developer, with expertise in backend development using languages such as Python, or Node.js
+● Demonstrated proficiency in building web applications using HTML, CSS, and at least one JavaScript framework like React.js, AngularJS or Backbone.js
+● Strong understanding of database technologies (e.g., SQL, NoSQL) and experience with database design and optimization
+● Familiarity with CI/CD pipelines and testing frameworks (Mocha/Jest)
+● Familiarity with cloud platforms such as AWS, Azure, or Google Cloud Platform
+● Excellent problem-solving skills and the ability to work effectively in a collaborative team environment
+● Strong communication skills and the ability to effectively communicate technical concepts to non-technical stakeholders
+● Passionate about the mental health space
+
+NICE TO HAVES:
+● You have experience in scaling a hyper-growth startup
+● You have expertise in architecting data models for scalability and performance
+
+WHAT WE OFFER
+
+● Competitive compensation
+● Competitive medical, dental, and vision benefits
+● Paid holidays and generous PTO 
+● Life insurance
+● Short-term and long-term disability
+● Spring Health mental healthcare
+● Commuter benefits
+● Perks at Work
+● Experience joining a dynamic start-up environment that is re-writing the playbook for social change in the mental health tech space
+● Benefits of joining a close-knit, highly-motivated team with mentorship opportunities from founding leaders, Advisors, and Board members
+● Learning & Development opportunities, including free MasterClass subscriptions
+● Opportunity to attend inspiring experiences and events with thought leaders, business executives, and iconic speakers across a range of industries
+● And more (just ask!)
+
+The annual salary for this role is $150,000 - $215,000, depending on experience, skills, and other relevant considerations.
+
+EEO Guidelines: Project Healthy Minds is an Equal Opportunity Employer and does not discriminate on the basis of an individual's sex, age, race, color, creed, national origin, alienage, religion, marital status, pregnancy, sexual orientation or affectional preference, gender identity and expression, disability, genetic trait or predisposition, carrier status, citizenship, veteran or military status and other personal characteristics protected by law. All applications will receive consideration for employment without regard to legally protected characteristics. Project Healthy Minds will provide reasonable accommodations as required by applicable federal, state, and/or local laws, and will consider qualified applicants, including those with criminal histories, in a manner consistent with the requirements of applicable "Fair Chance" laws.
+
+COVID Guidelines: The health and safety of our Project Healthy Minds community is the highest priority. As such, Project Healthy Minds is requiring all newly hired staff members to be fully vaccinated and boosted with an FDA authorized and/or approved COVID-19 vaccine as a condition of employment. Requests for reasonable accommodations for medical, religious, or other reasons will be considered in accordance with applicable law.
+
+Due to the high volume of applications received, only those selected for an interview will be contacted.
+Jobs powered by Lever logo
