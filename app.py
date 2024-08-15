@@ -41,7 +41,7 @@ def extract_tech_keywords(job_description):
         'Continuous Integration', 'Coroutines', 'Cross-functional', 'Dart', 'Data Science', 
         'Debugging', 'DevOps', 'Django', 'Docker', 'EC2', 'Elasticsearch', 'Electron', 
         'Elixir', 'Erlang', 'Express', 'Express.js', 'F#', 'FastAPI', 'Figma', 'Firebase', 
-        'Flask', 'Frameworks', 'Front-end Development', 'Full Stack', 'GCP', 'GULP', 
+        'Flask', 'Framework', 'Front-end Development', 'Full Stack', 'GCP', 'GULP', 
         'Game Engine', 'Git', 'GitHub', 'Go', 'GraphQL', 'HTML', 'Hadoop', 'Haskell', 
         'Java', 'JavaScript', 'Jenkins', 'Jira', 'Julia', 'Keras', 'Kotlin', 'Kubernetes', 
         'Linux', 'Lua', 'MATLAB', 'MVVM with LiveData and Data Binding', 'Machine Learning', 
