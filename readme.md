@@ -12,6 +12,9 @@ But even better, write a Flask app to do it too.
 
 Learning Flask as I go. So here we go!
 
+Note: The job descriptions are saved to a database. To access ALL of them as json data, use this endpoint:
+/api/jobs
+
 # TECH
 - Python
 - Flask
@@ -30,7 +33,7 @@ Learning Flask as I go. So here we go!
 3. Add PDF as option, + copy and paste, for adding job description and resume.
 4. View current keywords + option to add to list
 5. Add ML component with Tensor Flow to get new keywords off of the job descriptions that are uploaded
-6. Connect mySQL db to save new keywords for list, and overall data, etc.
+6. (on the way) Connect mySQL db to save new keywords for list, and overall data, etc.
 7. Build login to save your resume (can Render do SQLite from just their web services plan?)
 
 ![circle chart of matched keywords](static/images/matched_keywords.png)
