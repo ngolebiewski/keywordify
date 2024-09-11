@@ -1,0 +1,51 @@
+VectorShift
+
+No-Code Generative AI Automations Platform
+Frontend Engineer
+$130K - $175K / 0.25% - 0.50%
+Location
+New York, NY, US
+Job Type
+Full-time
+Experience
+Any (new grads ok)
+Connect directly with founders of the best YC-funded startups.
+Apply to role ›
+Albert Mao
+Albert Mao
+Founder
+About the role
+
+As a Frontend Engineer, you will have the unique opportunity to shape the DNA of our user experience. Given the no/low-code nature of our platform, we're seeking someone who is not only technically adept but also deeply passionate about creating an engaging, intuitive, and performant user interface.
+Responsibilities:
+
+    Work directly with the founders to conceptualize and implement an exceptional user interface.
+    Lead frontend architecture decisions, ensuring the platform is scalable and maintainable.
+    Drive forward web performance optimization.
+    Advocate for and implement UI/UX best practices, ensuring users are at the heart of every design decision.
+    Incorporate user feedback to continuously iterate and refine the platform.
+    Stay updated with the latest frontend technologies and integrate them where relevant.
+    Establish foundational frontend practices that will guide future team members.
+
+Requirements:
+
+    Degree in a technical discipline, preferably computer science.
+    Experience with React/NextJS or similar frontend frameworks.
+    Experience with the entire web development process (design, development, and deployment).
+    Ability to integrate seamlessly with backend APIs.
+    Familiarity with source control tools, preferably Git.
+    In-depth knowledge of responsive design.
+    A keen eye for user experience and UI design.
+    Strong communication skills and a collaborative mindset.
+    Problem-solving aptitude and enthusiasm for overcoming challenges.
+
+Nice to Have:
+
+    Experience in early-stage startup environments.
+    Experience with no/low-code platforms.
+    Understanding of web performance optimization and best practices.
+    Familiarity with Python FastAPI or similar backend frameworks.
+
+About VectorShift
+
+VectorShift provides tooling to create custom AI workflows quickly. End-users can run and modify these pipelines using our no-code platform, and developers can ship complex production-grade AI chains directly to end-users using our API and SDK. In addition to expanding our core platform, we are working with several >$1bn revenue enterprises to pilot our solutions for specific high-impact use cases.

@@ -5,8 +5,12 @@ from collections import Counter
 from flask import Flask, request, render_template, redirect
 from werkzeug.utils import secure_filename
 import mysql.connector
+from api.jobs import jobs_bp
 
 app = Flask(__name__)
+
+# Register the Blueprint
+app.register_blueprint(jobs_bp)
 
 # Database configuration from environment variables
 db_config = {
