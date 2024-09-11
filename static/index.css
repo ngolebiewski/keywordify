@@ -10,3 +10,8 @@ h1 {
 h2 {
   font-family: Workbench, Futura, Helvetica, sans-serif;
 }
+
+footer{
+  position: fixed;
+  bottom: 0;
+}

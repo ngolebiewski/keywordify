@@ -4,8 +4,21 @@ import string
 from collections import Counter
 from flask import Flask, request, render_template, redirect
 from werkzeug.utils import secure_filename
+import mysql.connector
+from api.jobs import jobs_bp
 
 app = Flask(__name__)
+
+# Register the Blueprint
+app.register_blueprint(jobs_bp)
+
+# Database configuration from environment variables
+db_config = {
+    'host': os.getenv('DB_HOST'),
+    'user': os.getenv('DB_USER'),
+    'password': os.getenv('DB_PASSWORD'),
+    'database': os.getenv('DB_NAME')
+}
 
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'txt'}
@@ -89,6 +102,21 @@ def compare_keywords(job_keywords, resume_keywords):
             missing_keywords[keyword] = count
     return matched_keywords, missing_keywords
 
+def save_job_description_to_db(resume_text):
+    try:
+        connection = mysql.connector.connect(**db_config)
+        cursor = connection.cursor()
+
+        insert_query = """INSERT INTO job_descriptions (text, user_id, valid) VALUES (%s, %s, %s)"""
+        cursor.execute(insert_query, (resume_text, None, True))
+        connection.commit()
+
+        cursor.close()
+        connection.close()
+
+    except mysql.connector.Error as error:
+        print(f"Failed to insert record: {error}")
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -117,6 +145,9 @@ def upload_files():
         # Sanitize the resume
         resume = sanitize_resume(resume)
 
+        # Save the sanitized job description to the database
+        save_job_description_to_db(job_description)
+
         job_keywords = extract_tech_keywords(job_description)
         resume_keywords = analyze_resume_against_keywords(resume, job_keywords)
 
@@ -125,6 +156,7 @@ def upload_files():
         return render_template('results.html', job_keywords=job_keywords, resume_keywords=resume_keywords, matched_keywords=matched_keywords, missing_keywords=missing_keywords)
 
     return redirect(request.url)
+
 
 if __name__ == "__main__":
     os.makedirs(UPLOAD_FOLDER, exist_ok=True)

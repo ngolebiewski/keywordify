@@ -1,0 +1,75 @@
+
+
+    Patreon
+
+Staff Frontend Platform Engineer
+Location
+
+New York, San Francisco
+Type
+
+Full time
+Department
+
+Engineering, Product & DesignEngineeringSoftware Engineering
+Compensation
+
+    $221K – $299K
+
+Overview
+Application
+
+Patreon is the best place for creators to fire up their fandoms, share exclusive work, and turn their passions into lasting creative businesses. Over 250,000 podcasters, writers, musicians, artists, and other creative people use Patreon to reach their biggest fans directly and earn an income for the value they provide. Creators can offer paid memberships that unlock access to exclusive work and community, or sell individual digital items from their own Patreon shops. 
+
+Ultimately, our goal is simple: fund the creative class. And we’re leaders in that space, having sent over $3.5 billion to creators since our founding. We’re continuing to invest heavily in building the best creator tools with the best team in the creator economy, and are looking for a Staff Frontend Platform Engineer to support our mission.
+
+This role is based in New York or San Francisco and open to those who are able to be in-office 2 days per week on a hybrid work model.
+
+About the Role
+
+    Build and maintain frontend infrastructure and tooling to empower product engineering at Patreon.
+
+    Design and implement frontend systems, libraries, and shared components that contribute to the success of frontend engineering.
+
+    Optimize loading and runtime performance of web pages and guide efforts for other teams to achieve highly performant results.
+
+    Plan for and lead large rollouts and migrations as we adopt new frontend technologies.
+
+    Mentor engineers and implement training to continuously level up our engineering organization. 
+
+    Advocate for best practices, processes, and high craft solutions.
+
+About You
+
+    You are a self-starter who can take large, high-level problems and drive them to successful resolution.
+
+    You are a thought leader who has insights and strong opinions on frontend engineering.
+
+    You are passionate about building with craft.
+
+    You are allergic to inefficiency and friction that drains productivity for engineers.
+
+    You lead by example showing how to adhere to our company values and champion our engineering principles. You demonstrate effective execution and inspire others to do the same.
+
+About Patreon
+
+Patreon powers creators to do what they love and get paid by the people who love what they do. Our team is passionate about making this mission and our core values come to life every day in our work. Through this work, our Patronauts:
+
+    Put Creators First | They’re the reason we’re here. When creators win, we win. 
+
+    Build with Craft | We sign our name to every deliverable, just like the creators we serve.
+
+    Make it Happen | We don’t quit. We learn and deliver. 
+
+    Win Together | We grow as individuals. We win as a team.
+
+We hire talented and passionate people from different backgrounds across the organization. If you’re excited about a role but your past experience doesn’t match with every bullet point outlined above, we strongly encourage you to apply anyway. If you’re a creator at heart, are energized by our mission, and share our company values, we’d love to hear from you.
+
+Patreon is proud to be an equal opportunity employer. We provide employment opportunities without regard to age, race, color, ancestry, national origin, religion, disability, sex, gender identity or expression, sexual orientation, veteran status, or any other protected class.
+
+Patreon offers a competitive benefits package including and not limited to salary, equity plans, healthcare, unlimited paid time off, company holidays and recharge days, commuter benefits, lifestyle stipends, learning and development stipends, patronage, parental leave, and 401k plan with matching.
+
+This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+Powered by 
+
+Privacy PolicySecurityVulnerability Disclosure
