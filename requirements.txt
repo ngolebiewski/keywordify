@@ -5,6 +5,7 @@ click==8.1.7
 emoji==2.12.1
 Flask==3.0.3
 Flask-SQLAlchemy==3.1.1
+gunicorn==23.0.0
 idna==3.7
 inflect==7.3.1
 iniconfig==2.0.0
