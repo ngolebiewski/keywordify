@@ -73,7 +73,8 @@ def extract_tech_keywords(job_description):
         'Vue.js', 'WCAG', 'Web Development', 'Web Performance', 'WordPress', 
         'backend', 'block-chain', 'data', 'frontend', 'frontend fundamentals', 
         'iOS', 'mobile platforms', 'modern frameworks', 'p5.js', 'pandas', 
-        'product management', 'springboot'
+        'product management', 'springboot', 'single page applications', 'SPA', 'Drupal', 
+        'npm', 'Webpack', 'HTML5', 'TDD', 
     ]
 
     job_description = clean_text(job_description)
